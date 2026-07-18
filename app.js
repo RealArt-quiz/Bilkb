@@ -169,15 +169,19 @@ function findCars() {
 
   const user = getUser();
 
-  const ranked = cars
-    .filter(c => hardFilter(c, user))
+  // 1) Filtrer først på hårde krav
+  let filtered = cars.filter(c => hardFilter(c, user));
+
+  // 2) Sortér de filtrerede biler efter pris (billigste først)
+  filtered.sort((a, b) => a.price - b.price);
+
+  // 3) Beregn score EFTER pris-sortering
+  const ranked = filtered
     .map(c => {
       const s = scoreCar(c, user);
       return { ...c, score: s.score, reasons: s.reasons };
     })
-    // NY SORTERING: billigste bil først
-    .sort((a, b) => a.price - b.price)
-    .slice(0, 10);
+    .slice(0, 10); // behold kun de 10 billigste der matcher
 
   renderResults(ranked);
 }
