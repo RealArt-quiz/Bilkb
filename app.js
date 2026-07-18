@@ -44,7 +44,7 @@ function getUser() {
     yearlyKm: Number(document.getElementById('yearlyKm')?.value || 0),
     commute: Number(document.getElementById('commute')?.value || 1),
 
-    // NYE INPUTS
+    // NY RANGE INPUT
     minRange: Number(document.getElementById('minRange')?.value || 0),
 
     kmPerCharge: Math.round(
@@ -53,6 +53,25 @@ function getUser() {
     )
   };
 }
+
+// Denne funktion kaldes fra HTML via event listeners
+// Den opdaterer kmPerCharge OG sætter minRange automatisk
+window.updateKmPerCharge = function () {
+  const yearlyKm = Number(document.getElementById('yearlyKm').value);
+  const commuteDays = Number(document.getElementById('commute').value);
+
+  const kmPerCharge = Math.round((yearlyKm / 365) * commuteDays);
+
+  document.getElementById('kmPerChargeValue').textContent =
+    kmPerCharge.toLocaleString('da-DK') + ' km';
+
+  // AUTO-OPDATER minRange, men brugeren kan stadig ændre manuelt bagefter
+  const minRangeInput = document.getElementById('minRange');
+  const minRangeValue = document.getElementById('minRangeValue');
+
+  minRangeInput.value = kmPerCharge;
+  minRangeValue.textContent = kmPerCharge + ' km';
+};
 
 function hardFilter(car, user) {
   if (user.method === 'buy' && user.budget > 0 && car.price > user.budget) return false;
@@ -69,7 +88,7 @@ function hardFilter(car, user) {
   if (user.tow === 'campingvogn' && (car.tow || 0) < 1200) return false;
   if (user.tow === 'trailer' && (car.tow || 0) < 750) return false;
 
-  // NYT: Minimum rækkevidde
+  // Minimum rækkevidde
   if (user.minRange > 0 && car.range < user.minRange) return false;
 
   return true;
