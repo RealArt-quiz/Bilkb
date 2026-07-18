@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bilrådgiver Danmark</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <h1>🚗 Bilrådgiver Danmark</h1>
+    <p>Svar på spørgsmålene og få de bedste bilanbefalinger.</p>
+</header>
+
+<main class="container">
+
+<!-- Kørsel -->
+<section class="question-card">
+    <h2>📍 Kørsel</h2>
+
+    <label for="commute">Dage mellem tankning / opladning</label>
+    <input type="range" id="commute" min="1" max="14" value="7">
+    <span id="commuteValue">7 dage</span>
+
+    <label for="yearlyKm">Kilometer pr. år</label>
+    <input type="range" id="yearlyKm" min="0" max="100000" step="1000" value="15000">
+    <span id="yearlyKmValue">15.000 km</span>
+
+    <label for="kmPerCharge">Km pr. tankning / opladning</label>
+    <span id="kmPerChargeValue">Beregnes automatisk…</span>
+</section>
+
+<!-- Minimum rækkevidde -->
+<section class="question-card">
+    <h2>📏 Minimum rækkevidde</h2>
+
+    <label for="minRange">Rækkevidde (km)</label>
+    <input type="range" id="minRange" min="1" max="1200" value="300">
+    <span id="minRangeValue">300 km</span>
+</section>
+
+<!-- Økonomi -->
+<section class="question-card">
+    <h2>💰 Økonomi</h2>
+
+    <label>
+        <input type="radio" name="method" value="buy" checked>
+        Køb
+    </label>
+
+    <label>
+        <input type="radio" name="method" value="lease">
+        Leasing
+    </label>
+
+    <div id="buySection">
+        <label for="budget">Budget (kr.)</label>
+        <input type="number" id="budget" placeholder="400000">
+    </div>
+
+    <div id="leaseSection" style="display:none;">
+        <label for="leaseBudget">Maks. leasing pr. måned</label>
+        <input type="number" id="leaseBudget" placeholder="5000">
+    </div>
+</section>
+
+<!-- Drivlinje -->
+<section class="question-card">
+    <h2>⚡ Drivlinje</h2>
+
+    <select id="fuel">
+        <option value="">Ingen præference</option>
+        <option value="Elbil">Elbil</option>
+        <option value="Hybrid">Hybrid</option>
+        <option value="Benzin">Benzin</option>
+        <option value="Diesel">Diesel</option>
+    </select>
+</section>
+
+<!-- Træk -->
+<section class="question-card">
+    <h2>🚚 Trækbehov</h2>
+
+    <select id="towNeed">
+        <option value="ingen">Intet behov</option>
+        <option value="trailer">Trailer (750 kg)</option>
+        <option value="campingvogn">Campingvogn (1200 kg)</option>
+    </select>
+</section>
+
+<!-- Familie -->
+<section class="question-card">
+    <h2>👨‍👩‍👧‍👦 Familie</h2>
+
+    <label for="people">Antal personer</label>
+    <input type="number" id="people" min="1" max="9" value="4">
+
+    <label for="baggage">Bagagebehov</label>
+    <select id="baggage">
+        <option value="lav">Lav</option>
+        <option value="mellem" selected>Mellem</option>
+        <option value="høj">Høj</option>
+    </select>
+</section>
+
+<!-- Find bil -->
+<section class="question-card center">
+    <button id="findCarBtn" disabled>
+        🚗 Find min bil
+    </button>
+</section>
+
+<!-- Resultater -->
+<section class="results-card">
+    <h2>🏆 Dine anbefalinger</h2>
+    <div id="resultsContainer">
+        Resultater vises her...
+    </div>
+</section>
+
+</main>
+
+<script>
+// Live opdatering af sliders
+document.getElementById('commute').addEventListener('input', e => {
+    document.getElementById('commuteValue').textContent = e.target.value + ' dage';
+    updateKmPerCharge();
+});
+
+document.getElementById('yearlyKm').addEventListener('input', e => {
+    document.getElementById('yearlyKmValue').textContent =
+        Number(e.target.value).toLocaleString('da-DK') + ' km';
+    updateKmPerCharge();
+});
+
+document.getElementById('minRange').addEventListener('input', e => {
+    document.getElementById('minRangeValue').textContent = e.target.value + ' km';
+});
+
+// Beregning: km pr. opladning/tankning
+function updateKmPerCharge() {
+    const yearlyKm = Number(document.getElementById('yearlyKm').value);
+    const commuteDays = Number(document.getElementById('commute').value);
+
+    const kmPerCharge = Math.round((yearlyKm / 365) * commuteDays);
+
+    document.getElementById('kmPerChargeValue').textContent =
+        kmPerCharge.toLocaleString('da-DK') + ' km';
+}
+updateKmPerCharge();
+
+// Skift mellem køb og leasing
+document.querySelectorAll("input[name='method']").forEach(radio => {
+    radio.addEventListener('change', () => {
+        const method = document.querySelector("input[name='method']:checked").value;
+        document.getElementById('buySection').style.display = method === 'buy' ? 'block' : 'none';
+        document.getElementById('leaseSection').style.display = method === 'lease' ? 'block' : 'none';
+    });
+});
+</script>
+
+<script src="app.js"></script>
+</body>
+</html>
