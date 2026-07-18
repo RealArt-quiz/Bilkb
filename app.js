@@ -43,6 +43,8 @@ function getUser() {
     baggage: document.getElementById('baggage')?.value || 'mellem',
     yearlyKm: Number(document.getElementById('yearlyKm')?.value || 0),
     commute: Number(document.getElementById('commute')?.value || 1),
+
+    // NYE INPUTS
     minRange: Number(document.getElementById('minRange')?.value || 0),
 
     kmPerCharge: Math.round(
@@ -173,7 +175,8 @@ function findCars() {
       const s = scoreCar(c, user);
       return { ...c, score: s.score, reasons: s.reasons };
     })
-    .sort((a, b) => b.score - a.score)
+    // NY SORTERING: billigste bil først
+    .sort((a, b) => a.price - b.price)
     .slice(0, 10);
 
   renderResults(ranked);
