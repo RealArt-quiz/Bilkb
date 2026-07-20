@@ -738,7 +738,7 @@
   { "brand": "Kia", "model": "Sportage", "fuel": "Hybrid", "body": "SUV", "seats": 5 },
   { "brand": "Kia", "model": "Sorento", "fuel": "Hybrid", "body": "SUV", "seats": 7 },
   { "brand": "Kia", "model": "EV6", "fuel": "El", "body": "Crossover", "seats": 5 },
-  { "brand": "Kia", "model": "EV9", "fuel": "El", "body": "SUV", "seats":
+  { "brand": "Kia", "model": "EV9", "fuel": "El", "body": "SUV", "seats": 6 },
   
   { "brand": "Lexus", "model": "UX", "fuel": "Hybrid", "body": "SUV", "seats": 5 },
   { "brand": "Lexus", "model": "UX 300e", "fuel": "El", "body": "SUV", "seats": 5 },
