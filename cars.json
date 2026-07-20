@@ -871,7 +871,7 @@
   { "brand": "Toyota", "model": "RAV4", "fuel": "Hybrid", "body": "SUV", "seats": 5 },
   { "brand": "Toyota", "model": "Highlander", "fuel": "Hybrid", "body": "SUV", "seats": 7 },
   { "brand": "Toyota", "model": "bZ4X", "fuel": "El", "body": "SUV", "seats": 5 },
-  { "brand": "Toyota", "model": "Proace City Electric", "fuel": "El", "body": "MPV", "seats": 5 }
+  { "brand": "Toyota", "model": "Proace City Electric", "fuel": "El", "body": "MPV", "seats": 5 },
 
   { "brand": "Volkswagen", "model": "Polo", "fuel": "Benzin", "body": "Hatchback", "seats": 5 },
   { "brand": "Volkswagen", "model": "Golf", "fuel": "Benzin", "body": "Hatchback", "seats": 5 },
@@ -884,8 +884,7 @@
   { "brand": "Volkswagen", "model": "ID.4", "fuel": "El", "body": "SUV", "seats": 5 },
   { "brand": "Volkswagen", "model": "ID.5", "fuel": "El", "body": "SUV/Coupé", "seats": 5 },
   { "brand": "Volkswagen", "model": "ID.7", "fuel": "El", "body": "Sedan", "seats": 5 },
-  { "brand": "Volkswagen", "model": "ID.Buzz", "fuel": "El", "body": "MPV", "seats": 5 }
-
+  { "brand": "Volkswagen", "model": "ID.Buzz", "fuel": "El", "body": "MPV", "seats": 5 },
 
   { "brand": "Volvo", "model": "XC40", "fuel": "Hybrid", "body": "SUV", "seats": 5 },
   { "brand": "Volvo", "model": "XC40 Recharge", "fuel": "El", "body": "SUV", "seats": 5 },
