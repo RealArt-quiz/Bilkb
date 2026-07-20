@@ -296,6 +296,5 @@
 { "brand": "VW", "model": "ID:5", "body": "SUV Coupe", "fuel": "El", "price": 369995, "lease": 4699, "range": 540, "boot": 549, "tow": 1400, "seats": 5 },
 { "brand": "VW", "model": "ID:7", "body": "Sedan", "fuel": "El", "price": 399995, "lease": 5499, "range": 700, "boot": 532, "tow": 1200, "seats": 5 },
 { "brand": "XPENG", "model": "G6", "body": "SUV", "fuel": "El", "price": 349990, "lease": 4699, "range": 570, "boot": 571, "tow": 1500, "seats": 5 }
-
 ]
 
