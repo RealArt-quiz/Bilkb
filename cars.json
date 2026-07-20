@@ -1,7 +1,7 @@
 [
  
-{ "brand": "Audi", "model": "A1", "body": "Hatchback", "fuel": "Benzin", "price": , : , "range": , "boot": , "tow": , "seats": 5 },
-{ "brand": "Audi", "model": "A3", "body": "Hatchback/Sedan", "fuel": "Benzin", "price": , : , "range": , "boot": , "tow": , "seats": 5 },
+{ "brand": "Audi", "model": "A1", "body": "Hatchback", "fuel": "Benzin", "price": , "lease": , "range": , "boot": , "tow": , "seats": 5 },
+{ "brand": "Audi", "model": "A3", "body": "Hatchback/Sedan", "fuel": "Benzin", "price": , "lease": , "range": , "boot": , "tow": , "seats": 5 },
 { "brand": "Audi", "model": "A4", "body": "Sedan/Stationcar", "fuel": "Benzin", "price": , "lease": , "range": , "boot": , "tow": , "seats": 5 },
 { "brand": "Audi", "model": "A5", "body": "Coupé", "fuel": "Benzin", "price": , "lease": , "range": , "boot": , "tow": , "seats": 5 },
 { "brand": "Audi", "model": "A6", "body": "Sedan/Stationcar", "fuel": "Benzin", "price": , "lease": , "range": , "boot": , "tow": , "seats": 5 },
