@@ -623,7 +623,6 @@
     "tow": 1500,
     "seats": 5
  },
-
   { "brand": "Audi", "model": "A1", "body": "Hatchback", "fuel": "Benzin" },
   { "brand": "Audi", "model": "A3", "body": "Hatchback/Sedan", "fuel": "Benzin" },
   { "brand": "Audi", "model": "A4", "body": "Sedan/Stationcar", "fuel": "Benzin" },
@@ -640,7 +639,6 @@
   { "brand": "Audi", "model": "Q8", "body": "SUV", "fuel": "Diesel" },
   { "brand": "Audi", "model": "Q8 e‑tron", "body": "SUV", "fuel": "El" },
   { "brand": "Audi", "model": "e‑tron GT", "body": "Sedan", "fuel": "El" },
-
   { "brand": "BMW", "model": "1‑serie", "body": "Hatchback", "fuel": "Benzin" },
   { "brand": "BMW", "model": "2‑serie Active Tourer", "body": "MPV", "fuel": "Hybrid" },
   { "brand": "BMW", "model": "2‑serie Coupé", "body": "Coupé", "fuel": "Benzin" },
@@ -662,14 +660,12 @@
   { "brand": "BMW", "model": "i4", "body": "Sedan", "fuel": "El" },
   { "brand": "BMW", "model": "i5", "body": "Sedan", "fuel": "El" },
   { "brand": "BMW", "model": "i7", "body": "Sedan", "fuel": "El" },
-
   { "brand": "BYD", "model": "Dolphin", "body": "Hatchback", "fuel": "El" },
   { "brand": "BYD", "model": "Atto 3", "body": "SUV", "fuel": "El" },
   { "brand": "BYD", "model": "Seal", "body": "Sedan", "fuel": "El" },
   { "brand": "BYD", "model": "Seal U", "body": "SUV", "fuel": "El" },
   { "brand": "BYD", "model": "Tang", "body": "SUV", "fuel": "El" },
   { "brand": "BYD", "model": "Han", "body": "Sedan", "fuel": "El" },
-
   { "brand": "Citroën", "model": "C3", "body": "Hatchback", "fuel": "Benzin" },
   { "brand": "Citroën", "model": "C3 Aircross", "body": "SUV", "fuel": "Benzin" },
   { "brand": "Citroën", "model": "C4", "body": "Hatchback", "fuel": "El" },
@@ -677,23 +673,19 @@
   { "brand": "Citroën", "model": "ë‑C4", "body": "Hatchback", "fuel": "El" },
   { "brand": "Citroën", "model": "ë‑Berlingo", "body": "MPV", "fuel": "El" },
   { "brand": "Citroën", "model": "C5 Aircross", "body": "SUV", "fuel": "Hybrid" },
-
   { "brand": "Cupra", "model": "Born", "body": "Hatchback", "fuel": "El" },
   { "brand": "Cupra", "model": "Formentor", "body": "SUV/Coupé", "fuel": "Benzin" },
   { "brand": "Cupra", "model": "Leon", "body": "Hatchback/Sedan", "fuel": "Benzin" },
   { "brand": "Cupra", "model": "Tavascan", "body": "SUV", "fuel": "El" },
-
   { "brand": "Dacia", "model": "Sandero", "body": "Hatchback", "fuel": "Benzin" },
   { "brand": "Dacia", "model": "Jogger", "body": "MPV", "fuel": "Hybrid" },
   { "brand": "Dacia", "model": "Duster", "body": "SUV", "fuel": "Benzin" },
   { "brand": "Dacia", "model": "Spring", "body": "Hatchback", "fuel": "El" },
-
   { "brand": "Fiat", "model": "500", "body": "Hatchback", "fuel": "El" },
   { "brand": "Fiat", "model": "500X", "body": "SUV", "fuel": "Benzin" },
   { "brand": "Fiat", "model": "Panda", "body": "Hatchback", "fuel": "Benzin" },
   { "brand": "Fiat", "model": "Tipo", "body": "Hatchback/Sedan", "fuel": "Benzin" },
   { "brand": "Fiat", "model": "Doblo", "body": "MPV", "fuel": "El" },
-
   { "brand": "Ford", "model": "Fiesta", "body": "Hatchback", "fuel": "Benzin" },
   { "brand": "Ford", "model": "Focus", "body": "Hatchback/Sedan", "fuel": "Benzin" },
   { "brand": "Ford", "model": "Puma", "body": "SUV", "fuel": "Hybrid" },
@@ -705,7 +697,6 @@
   { "brand": "Honda", "model": "HR‑V", "fuel": "Hybrid", "body": "SUV" },
   { "brand": "Honda", "model": "CR‑V", "fuel": "Hybrid", "body": "SUV" },
   { "brand": "Honda", "model": "e", "fuel": "El", "body": "Hatchback" },
-
   { "brand": "Hyundai", "model": "i10", "fuel": "Benzin", "body": "Hatchback" },
   { "brand": "Hyundai", "model": "i20", "fuel": "Benzin", "body": "Hatchback" },
   { "brand": "Hyundai", "model": "i30", "fuel": "Benzin", "body": "Hatchback" },
@@ -717,18 +708,15 @@
   { "brand": "Hyundai", "model": "Ioniq 5", "fuel": "El", "body": "SUV" },
   { "brand": "Hyundai", "model": "Ioniq 6", "fuel": "El", "body": "Sedan" },
   { "brand": "Hyundai", "model": "Santa Fe", "fuel": "Hybrid", "body": "SUV" },
-
   { "brand": "Jaguar", "model": "XE", "fuel": "Benzin", "body": "Sedan" },
   { "brand": "Jaguar", "model": "XF", "fuel": "Benzin", "body": "Sedan" },
   { "brand": "Jaguar", "model": "F‑Pace", "fuel": "Hybrid", "body": "SUV" },
   { "brand": "Jaguar", "model": "E‑Pace", "fuel": "Hybrid", "body": "SUV" },
   { "brand": "Jaguar", "model": "I‑Pace", "fuel": "El", "body": "SUV" },
-
   { "brand": "Jeep", "model": "Avenger", "fuel": "El", "body": "SUV" },
   { "brand": "Jeep", "model": "Compass", "fuel": "Hybrid", "body": "SUV" },
   { "brand": "Jeep", "model": "Renegade", "fuel": "Hybrid", "body": "SUV" },
   { "brand": "Jeep", "model": "Wrangler", "fuel": "Benzin", "body": "SUV" },
-
   { "brand": "Kia", "model": "Picanto", "fuel": "Benzin", "body": "Hatchback" },
   { "brand": "Kia", "model": "Ceed", "fuel": "Benzin", "body": "Hatchback" },
   { "brand": "Kia", "model": "Ceed SW", "fuel": "Benzin", "body": "Stationcar" },
@@ -739,20 +727,17 @@
   { "brand": "Kia", "model": "Sorento", "fuel": "Hybrid", "body": "SUV" },
   { "brand": "Kia", "model": "EV6", "fuel": "El", "body": "Crossover" },
   { "brand": "Kia", "model": "EV9", "fuel": "El", "body": "SUV" },
-
   { "brand": "Lexus", "model": "UX", "fuel": "Hybrid", "body": "SUV" },
   { "brand": "Lexus", "model": "UX 300e", "fuel": "El", "body": "SUV" },
   { "brand": "Lexus", "model": "NX", "fuel": "Hybrid", "body": "SUV" },
   { "brand": "Lexus", "model": "RX", "fuel": "Hybrid", "body": "SUV" },
   { "brand": "Lexus", "model": "RZ", "fuel": "El", "body": "SUV" },
   { "brand": "Lexus", "model": "ES", "fuel": "Hybrid", "body": "Sedan" },
-
   { "brand": "Mazda", "model": "2", "fuel": "Benzin", "body": "Hatchback" },
   { "brand": "Mazda", "model": "3", "fuel": "Benzin", "body": "Hatchback/Sedan" },
   { "brand": "Mazda", "model": "CX‑30", "fuel": "Benzin", "body": "SUV" },
   { "brand": "Mazda", "model": "CX‑5", "fuel": "Benzin", "body": "SUV" },
   { "brand": "Mazda", "model": "MX‑30", "fuel": "El", "body": "SUV" },
-
   { "brand": "Mercedes‑Benz", "model": "A‑Class", "fuel": "Benzin", "body": "Hatchback/Sedan" },
   { "brand": "Mercedes‑Benz", "model": "B‑Class", "fuel": "Hybrid", "body": "MPV" },
   { "brand": "Mercedes‑Benz", "model": "C‑Class", "fuel": "Hybrid", "body": "Sedan/Stationcar" },
@@ -767,26 +752,22 @@
   { "brand": "Mercedes‑Benz", "model": "EQC", "fuel": "El", "body": "SUV" },
   { "brand": "Mercedes‑Benz", "model": "EQE", "fuel": "El", "body": "Sedan/SUV" },
   { "brand": "Mercedes‑Benz", "model": "EQS", "fuel": "El", "body": "Sedan/SUV" },
-
   { "brand": "MG", "model": "ZS", "fuel": "El", "body": "SUV" },
   { "brand": "MG", "model": "ZS Benzin", "fuel": "Benzin", "body": "SUV" },
   { "brand": "MG", "model": "HS", "fuel": "Hybrid", "body": "SUV" },
   { "brand": "MG", "model": "Marvel R", "fuel": "El", "body": "SUV" },
   { "brand": "MG", "model": "MG5", "fuel": "El", "body": "Stationcar" },
   { "brand": "MG", "model": "MG4", "fuel": "El", "body": "Hatchback" },
-
   { "brand": "Mini", "model": "Cooper", "fuel": "Benzin", "body": "Hatchback" },
   { "brand": "Mini", "model": "Cooper SE", "fuel": "El", "body": "Hatchback" },
   { "brand": "Mini", "model": "Countryman", "fuel": "Hybrid", "body": "SUV" },
   { "brand": "Mini", "model": "Countryman Electric", "fuel": "El", "body": "SUV" }
-
   { "brand": "Nissan", "model": "Micra", "fuel": "Benzin", "body": "Hatchback" },
   { "brand": "Nissan", "model": "Juke", "fuel": "Benzin", "body": "SUV" },
   { "brand": "Nissan", "model": "Qashqai", "fuel": "Hybrid", "body": "SUV" },
   { "brand": "Nissan", "model": "X‑Trail", "fuel": "Hybrid", "body": "SUV" },
   { "brand": "Nissan", "model": "Leaf", "fuel": "El", "body": "Hatchback" },
   { "brand": "Nissan", "model": "Ariya", "fuel": "El", "body": "SUV" },
-
   { "brand": "Opel", "model": "Corsa", "fuel": "Benzin", "body": "Hatchback" },
   { "brand": "Opel", "model": "Corsa Electric", "fuel": "El", "body": "Hatchback" },
   { "brand": "Opel", "model": "Astra", "fuel": "Benzin", "body": "Hatchback/Sedan" },
@@ -796,7 +777,6 @@
   { "brand": "Opel", "model": "Mokka Electric", "fuel": "El", "body": "SUV" },
   { "brand": "Opel", "model": "Grandland", "fuel": "Hybrid", "body": "SUV" },
   { "brand": "Opel", "model": "Zafira‑e Life", "fuel": "El", "body": "MPV" },
-
   { "brand": "Peugeot", "model": "208", "fuel": "Benzin", "body": "Hatchback" },
   { "brand": "Peugeot", "model": "e‑208", "fuel": "El", "body": "Hatchback" },
   { "brand": "Peugeot", "model": "308", "fuel": "Benzin", "body": "Hatchback/Sedan" },
@@ -807,11 +787,9 @@
   { "brand": "Peugeot", "model": "2008", "fuel": "Benzin", "body": "SUV" },
   { "brand": "Peugeot", "model": "e‑2008", "fuel": "El", "body": "SUV" },
   { "brand": "Peugeot", "model": "Rifter", "fuel": "El", "body": "MPV" },
-
   { "brand": "Polestar", "model": "2", "fuel": "El", "body": "Sedan/Fastback" },
   { "brand": "Polestar", "model": "3", "fuel": "El", "body": "SUV" },
   { "brand": "Polestar", "model": "4", "fuel": "El", "body": "SUV/Coupé" },
-
   { "brand": "Porsche", "model": "718 Cayman", "fuel": "Benzin", "body": "Coupé" },
   { "brand": "Porsche", "model": "718 Boxster", "fuel": "Benzin", "body": "Cabriolet" },
   { "brand": "Porsche", "model": "911", "fuel": "Benzin", "body": "Coupé/Cabriolet" },
@@ -819,7 +797,6 @@
   { "brand": "Porsche", "model": "Macan Electric", "fuel": "El", "body": "SUV" },
   { "brand": "Porsche", "model": "Cayenne", "fuel": "Hybrid", "body": "SUV" },
   { "brand": "Porsche", "model": "Taycan", "fuel": "El", "body": "Sedan/Sportback" },
-
   { "brand": "Renault", "model": "Clio", "fuel": "Benzin", "body": "Hatchback" },
   { "brand": "Renault", "model": "Captur", "fuel": "Hybrid", "body": "SUV" },
   { "brand": "Renault", "model": "Arkana", "fuel": "Hybrid", "body": "SUV/Coupé" },
@@ -828,7 +805,6 @@
   { "brand": "Renault", "model": "Scenic E‑Tech", "fuel": "El", "body": "SUV" },
   { "brand": "Renault", "model": "Zoe", "fuel": "El", "body": "Hatchback" },
   { "brand": "Renault", "model": "Twingo Electric", "fuel": "El", "body": "Hatchback" },
-
   { "brand": "Skoda", "model": "Fabia", "fuel": "Benzin", "body": "Hatchback" },
   { "brand": "Skoda", "model": "Scala", "fuel": "Benzin", "body": "Hatchback" },
   { "brand": "Skoda", "model": "Octavia", "fuel": "Benzin", "body": "Sedan/Stationcar" },
@@ -839,29 +815,24 @@
   { "brand": "Skoda", "model": "Kodiaq", "fuel": "Benzin", "body": "SUV" },
   { "brand": "Skoda", "model": "Enyaq", "fuel": "El", "body": "SUV" },
   { "brand": "Skoda", "model": "Enyaq Coupé", "fuel": "El", "body": "SUV/Coupé" },
-
   { "brand": "Smart", "model": "EQ Fortwo", "fuel": "El", "body": "Hatchback (2‑dørs)" },
   { "brand": "Smart", "model": "EQ Forfour", "fuel": "El", "body": "Hatchback" },
   { "brand": "Smart", "model": "#1", "fuel": "El", "body": "SUV" },
   { "brand": "Smart", "model": "#3", "fuel": "El", "body": "SUV/Coupé" },
-
   { "brand": "Subaru", "model": "Impreza", "fuel": "Benzin", "body": "Hatchback" },
   { "brand": "Subaru", "model": "XV", "fuel": "Benzin", "body": "SUV" },
   { "brand": "Subaru", "model": "Forester", "fuel": "Hybrid", "body": "SUV" },
   { "brand": "Subaru", "model": "Outback", "fuel": "Benzin", "body": "Crossover/Stationcar" },
   { "brand": "Subaru", "model": "Solterra", "fuel": "El", "body": "SUV" },
-
   { "brand": "Suzuki", "model": "Swift", "fuel": "Benzin", "body": "Hatchback" },
   { "brand": "Suzuki", "model": "Ignis", "fuel": "Benzin", "body": "Hatchback/Crossover" },
   { "brand": "Suzuki", "model": "Vitara", "fuel": "Hybrid", "body": "SUV" },
   { "brand": "Suzuki", "model": "S‑Cross", "fuel": "Hybrid", "body": "SUV" },
   { "brand": "Suzuki", "model": "Across", "fuel": "Hybrid", "body": "SUV" },
-
   { "brand": "Tesla", "model": "Model 3", "fuel": "El", "body": "Sedan" },
   { "brand": "Tesla", "model": "Model Y", "fuel": "El", "body": "SUV" },
   { "brand": "Tesla", "model": "Model S", "fuel": "El", "body": "Sedan" },
   { "brand": "Tesla", "model": "Model X", "fuel": "El", "body": "SUV" },
-
   { "brand": "Toyota", "model": "Aygo X", "fuel": "Benzin", "body": "Crossover" },
   { "brand": "Toyota", "model": "Yaris", "fuel": "Hybrid", "body": "Hatchback" },
   { "brand": "Toyota", "model": "Yaris Cross", "fuel": "Hybrid", "body": "SUV" },
@@ -872,7 +843,6 @@
   { "brand": "Toyota", "model": "Highlander", "fuel": "Hybrid", "body": "SUV" },
   { "brand": "Toyota", "model": "bZ4X", "fuel": "El", "body": "SUV" },
   { "brand": "Toyota", "model": "Proace City Electric", "fuel": "El", "body": "MPV" },
-
   { "brand": "Volkswagen", "model": "Polo", "fuel": "Benzin", "body": "Hatchback" },
   { "brand": "Volkswagen", "model": "Golf", "fuel": "Benzin", "body": "Hatchback" },
   { "brand": "Volkswagen", "model": "Golf eHybrid", "fuel": "Hybrid", "body": "Hatchback" },
@@ -885,7 +855,6 @@
   { "brand": "Volkswagen", "model": "ID.5", "fuel": "El", "body": "SUV/Coupé" },
   { "brand": "Volkswagen", "model": "ID.7", "fuel": "El", "body": "Sedan" },
   { "brand": "Volkswagen", "model": "ID.Buzz", "fuel": "El", "body": "MPV" },
-
   { "brand": "Volvo", "model": "XC40", "fuel": "Hybrid", "body": "SUV" },
   { "brand": "Volvo", "model": "XC40 Recharge", "fuel": "El", "body": "SUV" },
   { "brand": "Volvo", "model": "C40 Recharge", "fuel": "El", "body": "SUV/Coupé" },
