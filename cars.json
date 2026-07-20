@@ -873,31 +873,31 @@
   { "brand": "Toyota", "model": "bZ4X", "fuel": "El", "body": "SUV", "seats": 5 },
   { "brand": "Toyota", "model": "Proace City Electric", "fuel": "El", "body": "MPV", "seats": 5 }
 
-{ "brand": "Volkswagen", "model": "Polo", "fuel": "Benzin", "body": "Hatchback", "seats": 5 },
-{ "brand": "Volkswagen", "model": "Golf", "fuel": "Benzin", "body": "Hatchback", "seats": 5 },
-{ "brand": "Volkswagen", "model": "Golf eHybrid", "fuel": "Hybrid", "body": "Hatchback", "seats": 5 },
-{ "brand": "Volkswagen", "model": "Passat", "fuel": "Hybrid", "body": "Sedan/Stationcar", "seats": 5 },
-{ "brand": "Volkswagen", "model": "Tiguan", "fuel": "Benzin", "body": "SUV", "seats": 5 },
-{ "brand": "Volkswagen", "model": "T‑Roc", "fuel": "Benzin", "body": "SUV", "seats": 5 },
-{ "brand": "Volkswagen", "model": "T‑Cross", "fuel": "Benzin", "body": "SUV", "seats": 5 },
-{ "brand": "Volkswagen", "model": "ID.3", "fuel": "El", "body": "Hatchback", "seats": 5 },
-{ "brand": "Volkswagen", "model": "ID.4", "fuel": "El", "body": "SUV", "seats": 5 },
-{ "brand": "Volkswagen", "model": "ID.5", "fuel": "El", "body": "SUV/Coupé", "seats": 5 },
-{ "brand": "Volkswagen", "model": "ID.7", "fuel": "El", "body": "Sedan", "seats": 5 },
-{ "brand": "Volkswagen", "model": "ID.Buzz", "fuel": "El", "body": "MPV", "seats": 5 }
+  { "brand": "Volkswagen", "model": "Polo", "fuel": "Benzin", "body": "Hatchback", "seats": 5 },
+  { "brand": "Volkswagen", "model": "Golf", "fuel": "Benzin", "body": "Hatchback", "seats": 5 },
+  { "brand": "Volkswagen", "model": "Golf eHybrid", "fuel": "Hybrid", "body": "Hatchback", "seats": 5 },
+  { "brand": "Volkswagen", "model": "Passat", "fuel": "Hybrid", "body": "Sedan/Stationcar", "seats": 5 },
+  { "brand": "Volkswagen", "model": "Tiguan", "fuel": "Benzin", "body": "SUV", "seats": 5 },
+  { "brand": "Volkswagen", "model": "T‑Roc", "fuel": "Benzin", "body": "SUV", "seats": 5 },
+  { "brand": "Volkswagen", "model": "T‑Cross", "fuel": "Benzin", "body": "SUV", "seats": 5 },
+  { "brand": "Volkswagen", "model": "ID.3", "fuel": "El", "body": "Hatchback", "seats": 5 },
+  { "brand": "Volkswagen", "model": "ID.4", "fuel": "El", "body": "SUV", "seats": 5 },
+  { "brand": "Volkswagen", "model": "ID.5", "fuel": "El", "body": "SUV/Coupé", "seats": 5 },
+  { "brand": "Volkswagen", "model": "ID.7", "fuel": "El", "body": "Sedan", "seats": 5 },
+  { "brand": "Volkswagen", "model": "ID.Buzz", "fuel": "El", "body": "MPV", "seats": 5 }
 
 
-{ "brand": "Volvo", "model": "XC40", "fuel": "Hybrid", "body": "SUV", "seats": 5 },
-{ "brand": "Volvo", "model": "XC40 Recharge", "fuel": "El", "body": "SUV", "seats": 5 },
-{ "brand": "Volvo", "model": "C40 Recharge", "fuel": "El", "body": "SUV/Coupé", "seats": 5 },
-{ "brand": "Volvo", "model": "EX30", "fuel": "El", "body": "SUV", "seats": 5 },
-{ "brand": "Volvo", "model": "EX40", "fuel": "El", "body": "SUV", "seats": 5 },
-{ "brand": "Volvo", "model": "EX90", "fuel": "El", "body": "SUV", "seats": 7 },
-{ "brand": "Volvo", "model": "XC60", "fuel": "Hybrid", "body": "SUV", "seats": 5 },
-{ "brand": "Volvo", "model": "XC90", "fuel": "Hybrid", "body": "SUV", "seats": 7 },
-{ "brand": "Volvo", "model": "S60", "fuel": "Hybrid", "body": "Sedan", "seats": 5 },
-{ "brand": "Volvo", "model": "V60", "fuel": "Hybrid", "body": "Stationcar", "seats": 5 },
-{ "brand": "Volvo", "model": "V90", "fuel": "Hybrid", "body": "Stationcar", "seats": 5 }
+  { "brand": "Volvo", "model": "XC40", "fuel": "Hybrid", "body": "SUV", "seats": 5 },
+  { "brand": "Volvo", "model": "XC40 Recharge", "fuel": "El", "body": "SUV", "seats": 5 },
+  { "brand": "Volvo", "model": "C40 Recharge", "fuel": "El", "body": "SUV/Coupé", "seats": 5 },
+  { "brand": "Volvo", "model": "EX30", "fuel": "El", "body": "SUV", "seats": 5 },
+  { "brand": "Volvo", "model": "EX40", "fuel": "El", "body": "SUV", "seats": 5 },
+  { "brand": "Volvo", "model": "EX90", "fuel": "El", "body": "SUV", "seats": 7 },
+  { "brand": "Volvo", "model": "XC60", "fuel": "Hybrid", "body": "SUV", "seats": 5 },
+  { "brand": "Volvo", "model": "XC90", "fuel": "Hybrid", "body": "SUV", "seats": 7 },
+  { "brand": "Volvo", "model": "S60", "fuel": "Hybrid", "body": "Sedan", "seats": 5 },
+  { "brand": "Volvo", "model": "V60", "fuel": "Hybrid", "body": "Stationcar", "seats": 5 },
+  { "brand": "Volvo", "model": "V90", "fuel": "Hybrid", "body": "Stationcar", "seats": 5 }
 
 ]
 
